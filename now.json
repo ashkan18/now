@@ -1,0 +1,13 @@
+{
+  "version": 2,
+  "name": "auctions_slack",
+  "builds": [
+    {
+      "src": "*.js",
+      "use": "@now/node"
+    }
+  ],
+  "env": {
+    "GRAVITY_TOKEN": "@gravity-token"
+  }
+}
